@@ -28,6 +28,30 @@ p stops.count()
 
 #8. Show as many ways as you can to return "Falkirk High" from the array?
 p stops[2]
+p stops.fetch(2)
+p stops.at(2)
+
+for station_name in stops
+	if station_name == stops.at(2)
+			p station_name
+	end
+end
+
+def overkill_method_to_find_falkirk(station_name, all_stops)
+	for station_name in all_stops
+		if station_name == all_stops.at(2)
+				return station_name
+		end
+	end
+	return nil
+end
+
+#p overkill_method_to_find_falkirk("Falkirk High", stops)
 
 #9. Reverse the positions of the stops in the array
+p stops.reverse()
+
 #10 Print out all the stops using a for loop
+for stop in stops
+	p stop
+end
