@@ -85,17 +85,20 @@ p avrils_even_lottery_nums
 
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
 eriks_lottery_numbers.push(7) #variable defined in Question 5
+
 p eriks_lottery_numbers
 
 # 8. Change Erik's hometown to Edinburgh
 eriks_home_town = users["Erik"][:home_town]
 eriks_home_town = "Edinburgh"
+
 p eriks_home_town
 
 # 9. Add a pet dog to Erik called "Fluffy"
 eriks_pets = users["Erik"][:pets]
 eriks_new_pet = {name: "Fluffy", species: "Dog"}
 eriks_pets.push(eriks_new_pet)
+
 p eriks_pets
 
 # 10. Add another person to the users hash
