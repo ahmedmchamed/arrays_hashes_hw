@@ -77,7 +77,7 @@ avrils_even_lottery_nums = []
 
 for lottery_number in avrils_lottery_numbers
 	if lottery_number % 2 == 0
-			avrils_even_lottery_nums.push(lottery_number)
+		avrils_even_lottery_nums.push(lottery_number)
 	end
 end
 
@@ -103,15 +103,15 @@ p eriks_pets
 
 # 10. Add another person to the users hash
 users["Timmy"] = {
-		twitter: "ImTimmy",
-		lottery_numbers: [1, 2, 3, 4, 5, 6],
-		home_town: "Somewhere",
-		pets: [
-				{
-					name: "TimmyJunior",
-					species: "cat"
-				}
-		]
+  twitter: "ImTimmy",
+  lottery_numbers: [1, 2, 3, 4, 5, 6],
+  home_town: "Somewhere",
+  pets: [
+    {
+      name: "TimmyJunior",
+      species: "cat"
+    }
+  ]
 }
 
 p users

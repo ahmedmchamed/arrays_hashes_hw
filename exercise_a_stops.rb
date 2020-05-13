@@ -33,14 +33,14 @@ p stops.at(2)
 
 for station_name in stops
 	if station_name == stops.at(2)
-			p station_name
+		p station_name
 	end
 end
 
 def overkill_method_to_find_falkirk(station_name, all_stops)
 	for station_name in all_stops
 		if station_name == all_stops.at(2)
-				return station_name
+			return station_name
 		end
 	end
 	return nil
