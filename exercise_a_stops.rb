@@ -14,7 +14,10 @@ p stops
 
 #4. Print out the index position of "Linlithgow"
 p stops.find_index("Linlithgow")
+
 #5. Remove "Livingston" from the array using its name
+stops.delete("Livingston")
+p stops
 #6. Delete "Cumbernauld" from the array by index
 #7. Print the number of stops there are in the array?
 #8. Show as many ways as you can to return "Falkirk High" from the array?
