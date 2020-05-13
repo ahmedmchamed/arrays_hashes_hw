@@ -97,3 +97,17 @@ eriks_pets.push({name: "Fluffy", species: "Dog"})
 p eriks_pets
 
 # 10. Add another person to the users hash
+users["Timmy"] = {
+		twitter: "ImTimmy",
+		lottery_numbers: [1, 2, 3, 4, 5, 6],
+		home_town: "Somewhere",
+		pets: [
+				{
+					name: "TimmyJunior",
+					species: "cat"
+				}
+		]
+}
+
+p users
+
