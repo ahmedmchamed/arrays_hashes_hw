@@ -46,7 +46,7 @@ def overkill_method_to_find_falkirk(station_name, all_stops)
 	return nil
 end
 
-#p overkill_method_to_find_falkirk("Falkirk High", stops)
+p overkill_method_to_find_falkirk("Falkirk High", stops)
 
 #9. Reverse the positions of the stops in the array
 p stops.reverse()
